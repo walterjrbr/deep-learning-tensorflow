@@ -1,8 +1,8 @@
 
-import numpy as np # para computação numética menos intensiva
-import os # para criar pastas
-from matplotlib import pyplot as plt # para mostrar imagens
-import tensorflow as tf # para redes neurais
+import numpy as np 
+import os 
+from matplotlib import pyplot as plt 
+import tensorflow as tf 
 
 # criamos uma pasta para salvar o modelo
 if not os.path.exists('tmp'): # se a pasta não existir
@@ -10,7 +10,7 @@ if not os.path.exists('tmp'): # se a pasta não existir
 
 # baixa os dados na pasta criada e carrega os dados 
 from tensorflow.examples.tutorials.mnist import input_data
-data = input_data.read_data_sets("tmp/", one_hot=False) # repare que não usamos vetores one-hot
+data = input_data.read_data_sets("tmp/", one_hot=False)
 
 
 
