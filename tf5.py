@@ -263,5 +263,3 @@ with graph1.as_default():
     # para salvar o modelo treinado
     saver = tf.train.Saver()
     
-=======
->>>>>>> ff73c9e7ec4073032fbcc28663e9351cf924fc2a
