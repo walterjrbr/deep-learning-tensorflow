@@ -20,8 +20,8 @@ with graph.as_default():
     print(b)
 
     # criamos constante com valor 0
-    b = tf.constant(0, name='b')
-    print(b)
+    #b = tf.constant(0, name='b')
+    #print(b)
 
 
     # definindo constantes
@@ -100,6 +100,9 @@ with graph.as_default(): # abre o grafo para que possamos colocar nós
     print(W1)
     print(b1)
     print(W2)
+    print(b2)
+    print(W3)
+    print(b3)
 
 
 
@@ -258,9 +261,3 @@ with graph1.as_default():
     # para salvar o modelo treinado
     saver = tf.train.Saver()
     
-print(W1)
-print(b1)
-print(W2)
-print(b2)
-print(W3)
-print(b3)
