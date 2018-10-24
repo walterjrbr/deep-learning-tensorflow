@@ -1,8 +1,5 @@
-import numpy as np 
-import os 
-from matplotlib import pyplot as plt 
-import tensorflow as tf 
 
+<<<<<<< HEAD
 # criamos uma pasta para salvar o modelo
 if not os.path.exists('tmp'): # se a pasta não existir
     os.makedirs('tmp') # cria a pasta
@@ -261,3 +258,5 @@ with graph1.as_default():
     # para salvar o modelo treinado
     saver = tf.train.Saver()
     
+=======
+>>>>>>> ff73c9e7ec4073032fbcc28663e9351cf924fc2a
